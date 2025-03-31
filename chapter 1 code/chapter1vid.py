@@ -13,7 +13,7 @@ while True:
     cv2.imshow("Video", image)
 
     # Wait for 1 millisecond for a key press, and check if the pressed key is 'q'.
-    # The bitwise operation ensures the key code is compared correctly.
+    # The bitwise operation ensures the key chapter 1 code is compared correctly.
     if cv2.waitKey(1) & 0xFF == ord('q'):
         # If 'q' is pressed, break out of the loop to stop the video playback.
         break
